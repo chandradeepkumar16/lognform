@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>
+      Frontend assignment
+    </title>
+    <h1>91social</h1>
+    <link href="front.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="body">Please fill the following form:
+    <br>
+  <br>
+<br></div>
+<script src="front.js" charset="utf-8"></script>
+    <form name="myform" action="" method="post" onsubmit="return validate()">
+
+      <label for="title">Choose title:</label>
+  <select id="title" name="title" title="choose title" required >
+    <option value="Mr">Mr</option>
+    <option value="Mrs">Mrs</option>
+    <option value="Ms">Ms</option>
+
+  </select> &nbsp &nbsp
+  <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder=" Enter your name " required ><br><br>
+
+  <label for="gender">Gender</label>
+    <input type="radio" id="gender" name="gender" required>
+    <label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label><br><br>
+  <label for="email"> Email ID</label>
+       <input type="email" id="email" name="email" placeholder=" Enter your email " required ><br><br>
+  <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder=" Enter password " required><br><br>
+  <label for="repassword">Confirm Password</label>
+      <input type="password" id="repassword" name="repassword" placeholder=" Enter password again"
+           required><br><br>
+  <label for="contact">Contact</label>
+      <input type="tel" id="contact" name="contact" placeholder=" Enter contact number"  required><br><br>
+  <label for="add">Address</label>
+      <textarea name="add" id="add" placeholder="enter your address"></textarea><br><br>
+        <input type="submit">
+
+    </form>
+
+  </body>
+</html>
